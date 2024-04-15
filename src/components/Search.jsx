@@ -47,7 +47,7 @@ return (
         </button>
       )}
       {weatherData && (
-        <div className="weather-info">
+        <div className="weather-info-search">
           <div className='weather-icons'>
             {weatherData.weather[0].icon && WeatherIcons(weatherData.weather[0].icon)}
           </div>

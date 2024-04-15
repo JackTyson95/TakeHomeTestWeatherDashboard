@@ -42,6 +42,10 @@
     @apply border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black flex flex-col items-center justify-center bg-amber-500;
 }
 
+.weather-info-search {
+    @apply border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black flex flex-col items-center justify-center bg-cyan-800;
+}
+
 
 .forecast-button {
     @apply  bg-gradient-to-r  from-orange-500 via-gray-800 to-blue-900 text-white border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black cursor-pointer transition duration-300 ease-in-out transform;
