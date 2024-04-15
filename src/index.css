@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.weather-container {
+    @apply border-2 border-black rounded-md flex flex-row items-center justify-center m-4 p-4 ring-4 ring-black;
+}
+
+.weather-background1 {
+  background-image: url('/images/weather-background1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-background2 {
+  background-image: url('/images/weather-background2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-background3 {
+  background-image: url('/images/weather-background3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-background4 {
+    background-image: url('/images/weather-background4.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.input {
+    @apply border-2 border-black rounded-md m-4 p-4 ring-4 ring-black;
+}
+
+.weather-info {
+    @apply border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black flex flex-col items-center justify-center bg-indigo-200 ;
+}
+
+.weather-info-currcard {
+    @apply border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black flex flex-col items-center justify-center bg-amber-500;
+}
+
+
+.forecast-button {
+    @apply  bg-gradient-to-r  from-orange-500 via-gray-800 to-blue-900 text-white border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black cursor-pointer transition duration-300 ease-in-out transform;
+}
+
+.forecast-button:hover {
+    @apply bg-blue-600 ring-4 ring-blue-300;
+}
+
+.forecast-button:active {
+    @apply bg-blue-700 ring-4 ring-blue-500;
+}
+
+.currcard-button {
+    @apply bg-gradient-to-r  from-sky-300 via-amber-700 to-red-500 border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black w-auto;
+}
+
+.citycards-button {
+    @apply bg-gradient-to-r  from-gray-500 via-indigo-200 to-sky-400 border-2 border-black rounded-md m-4 p-4 font-bold ring-4 ring-black w-auto;
+}
+
+
+
+
